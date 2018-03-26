@@ -1,5 +1,6 @@
 %CODIGO DEL PROYECTO AKITICOLOG
-%Base, edad, donde vive, bebida favorita xD(random, por el momento)
-machillo(18,alajuela,vinitos).
-suzurro(22,cartago,imperial).
-
+nacimiento:-
+    write("Donde nació?"),nl,
+    read(Inpt),nl,
+    atomic_list_concat(L,' ',Inpt),nl,
+    write(L).
