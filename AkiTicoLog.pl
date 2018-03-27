@@ -23,7 +23,7 @@ nery([],"Nery Brenes").
 nery([X|T],R):-X= atletismo,nery(T,R).
 nery([X|T],R):-X= hombre,nery(T,R).
 nery([X|T],R):-X= no,nery(T,R).
-nery([X|T],R):-X= 'san jose',nery(T,R).
+nery([X|T],R):-X= limon,nery(T,R).
 nery([X|T],R):-X= siguiente ,nery(T,R).
 
 %si no se sabe la pregunta, escribir siguiente, para seguir con la siguiente pregunta
